@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Portafolio</title>
+  <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+</head>
+<body>
+    <header id="header" class="fixed apply-effect clearfix light header-menu" style="top: 0px;">
+        <div id="hd-overlay-slideshow"></div>
+        <div id="hd-overlay" class="hd-bg-effect "></div>
+        <div id="hd-container" class="container apply-effect light">
+      <div class="mobile-menu-open">
+        <i class="fa fa-bars"></i>
+      </div> 
+        <div class="site-logo">
+            <h1><a href="http://base12.es">			            
+                <img data-max-height="50" data-max-shrink-height="50" class="dark-logo  " src="http://base12.es/wp-content/uploads/2016/03/logo-cabecera-232x80-negro.png" alt="base12" style="max-height: 50px;">			        	
+              <img data-max-height="50" data-max-shrink-height="50" class="light-logo logo_active  " src="http://base12.es/wp-content/uploads/2016/03/logo-cabecera-232x80-blanco.png" alt="base12" style="max-height: 50px;">
+        </a></h1>                                                    
+          </div>
+      <nav id="top-nav" class="hd-bg-effect">
+        <ul id="menu-menu-principal-1" class="top-menu "><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-5459"><a title="Home" href="http://base12.es/">Home</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5457"><a title="base12" href="http://base12.es/about/">base12</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-2709 current_page_item menu-item-5460 active"><a title="Portfolio" href="http://base12.es/portfolio/">Portfolio</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6472"><a title="Dosier de proyectos" href="http://base12.es/base12-dossier/">Dosier de proyectos</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5462"><a title="Blog" href="http://base12.es/blog/">Blog</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6636"><a href="http://base12.bigcartel.com/" onclick="__gaTracker('send', 'event', 'outbound-widget', 'http://base12.bigcartel.com/', 'Tienda');" title="Tienda">Tienda</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5461"><a title="Contacto" href="http://base12.es/contacto/">Contacto</a></li>
+</ul>				</nav>
+       <div class="search-button"><span class="icon_search" aria-hidden="true"></span></div>
+            </div>
+    </header>
+  <img src="assets/images/enconstrucion.jpg" alt="">
+</body>
+</html>
