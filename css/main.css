@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
   }
+  body{
+    background-color: #e1e1e1;
+  }
 section#main{
   background-image: url(../assets/images/images1.jpg);
   background-size: cover;
@@ -39,29 +42,39 @@ hr{
   margin: 0 auto;
   padding: 1px;
 }
-#about-me ul {
+#contact ul {
   padding: 0;
   margin: 45px 0 0 0;
 }
-#about-me ul li {
+#contact ul li {
   list-style-type: none;
   display: inline-block;
   margin-right: 25px;
 }
-#about-me a{
+#contact a{
   text-decoration: none;
   color: #3333;
+}
+#skills{
+  background-color: #ddedf8;
+  transform:skew(0deg, -5deg);
+}
+#skills> div:nth-child(1){
+  transform:skew(0deg, 5deg);
+}
+.marg-top{
+  margin-top: 15px;
 }
 .strip {
   margin: 28px 0 0px 0;
 }
 section{
-  margin-bottom: 10px;
-  margin-top: 10px;
+  margin-bottom: 40px;
+  margin-top: 40px;
+  padding-bottom: 25px;
+  padding-top: 25px;
 }
-.blog {
-  padding: 60px 0;
-}
+
 .blog-grids {
   margin-top: 50px;
 }
@@ -94,11 +107,65 @@ section{
   height: 1px;
   margin: 15px 0;
 }
-.blog-grid p {
-  font-family: 'Lato', sans-serif;
-  line-height: 1.8em;
-  margin: 0;
-  font-size: 16px;
-  color: #888b90;
-  font-weight: 300;
+
+/* Cards */
+.card-custom {
+  overflow: hidden;
+  min-height: 450px;
+  border: 0;
+  box-shadow: 0 0 15px rgba(10, 10, 10, 0.3);
 }
+
+.card-custom-img {
+  height: 200px;
+  min-height: 200px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-color: inherit;
+
+}
+
+/* First border-left-width setting is a fallback */
+.card-custom-img::after {
+  position: absolute;
+  content: '';
+  top: 161px;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-top-width: 40px;
+  border-right-width: 0;
+  border-bottom-width: 0;
+  border-left-width: 545px;
+  border-left-width: calc(575px - 5vw);
+  border-top-color: transparent;
+  border-right-color: transparent;
+  border-bottom-color: transparent;
+  border-left-color: inherit;
+}
+
+.card-custom-avatar img {
+  border-radius: 50%;
+  box-shadow: 0 0 15px rgba(10, 10, 10, 0.3);
+  position: absolute;
+  top: 100px;
+  left: 1.25rem;
+  width: 100px;
+  height: 100px;
+}
+.cgrain{
+  background: #abaaae;
+  transform:skew(15deg,0 deg);
+}
+.color-brain{
+  background-color: #734A2E;
+  border: 1px solid #734A2E;
+  color:#ffff;
+}
+.color-grain{
+  color: #ab673d;
+  border: 1px solid #ab673d;
+}
+/* #666052 #e1e1e1*/
