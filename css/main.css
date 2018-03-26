@@ -22,7 +22,7 @@ footer{
   background-color: black;
 }
 .banner{
-  letter-spacing: 1.5rem;
+  letter-spacing: 0.8rem;
   position: absolute;
   color: white;
   background-color: rgba(0,0,0,.6);
@@ -32,13 +32,16 @@ footer{
   width: 75%;
   text-align: center;
 }
+.banner p{
+  font-size: 1.5em;
+}
 hr{
   color:#fff;
   border:2px solid;
 }
 .border {
   background: #52edc7;
-  width: 70%;
+  width: 80%;
   margin: 0 auto;
   padding: 1px;
 }
@@ -156,9 +159,14 @@ section{
   width: 100px;
   height: 100px;
 }
+.card-footer a:hover{
+  color:wheat;
+}
 .cgrain{
-  background: #abaaae;
+  background: #816C60;
   transform:skew(15deg,0 deg);
+  color:#ffff;
+  font-weight: 100!important;
 }
 .color-brain{
   background-color: #734A2E;
