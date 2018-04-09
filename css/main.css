@@ -1,11 +1,11 @@
 *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  body{
-    background-color: #e1e1e1;
-  }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: #e1e1e1;
+}
 section#main{
   background-image: url(../assets/images/images1.jpg);
   background-size: cover;
@@ -45,15 +45,18 @@ hr{
   margin: 0 auto;
   padding: 1px;
 }
-#contact ul {
-  padding: 0;
-  margin: 45px 0 0 0;
-}
-#contact ul li {
+
+/* #contact ul  {
   list-style-type: none;
   display: inline-block;
   margin: 25px;
   padding: 15px;
+}  */
+#contact li{
+  margin-top:10px;
+  margin-bottom: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 #contact a{
   text-decoration: none;
@@ -180,4 +183,8 @@ section{
 /* #666052 #e1e1e1*/
 .a-contact{
   color:#816C60;
+}
+.p-50{
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
