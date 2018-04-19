@@ -62,7 +62,7 @@ hr{
   text-decoration: none;
   color: #3333;
 }
-#skill{
+#skills{
   background-color: #ddedf8;
   transform:skew(0deg, -5deg);
 }
@@ -70,7 +70,7 @@ hr{
   transform:skew(0deg, 5deg);
 }
 .marg-top{
-  margin-top: 15px;
+  margin-top: 20px;
 }
 .strip {
   margin: 28px 0 0px 0;
